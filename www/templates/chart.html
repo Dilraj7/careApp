@@ -1,0 +1,65 @@
+<ion-view view-title="Chart">
+  <ion-content>
+    <ion-list>
+    <ion-toggle ng-model="settings.showEvaluation">
+        Show evaluation
+    </ion-toggle>
+    </ion-list>
+	<ion-scroll ng-if="settings.showEvaluation" zooming="true" direction="y" style="height: 300px">
+	    <div class="list">
+	    	<!-- Eating -->
+		  <div class="item range range-positive">
+		    <i class="icon ion-fork"></i><!-- <i class="icon ion-knife"></i> -->
+		    <input type="range" name="volume" min="0" max="100" value="{{test.numberSelection}}" ng-model="test.numberSelection"/>
+		    <p>Selected Number : {{test.numberSelection}} </p>
+		  </div>
+		  <!-- Drinking -->
+		  <div class="item range range-positive">
+		    <i class="icon ion-coffee"></i>
+		    <input type="range" name="volume" min="0" max="100" value="{{test.numberSelection}}" ng-model="test.numberSelection2"/>
+		    <p>Selected Number : {{test.numberSelection2}} </p>
+		  </div>
+		  <!-- Sleeping -->
+		  <div class="item range range-positive">
+		    <i class="icon ion-ios-moon"></i>
+		    <input type="range" name="volume" min="0" max="100" value="{{test.numberSelection3}}" ng-model="test.numberSelection3"/>
+		    <p>Selected Number : {{test.numberSelection3}} </p>
+		  </div>
+		  <!-- Activité -->
+		  <div class="item range range-positive">
+		    <i class="icon ion-android-walk"></i>
+		    <input type="range" name="volume" min="0" max="100" value="{{test.numberSelection4}}" ng-model="test.numberSelection4"/>
+		    <p>Selected Number : {{test.numberSelection4}} </p>
+		  </div>
+		  <!-- Obs.Medicale -->
+		  <div class="item range range-positive">
+		    <i class="icon ion-medkit"></i>
+		    <input type="range" name="volume" min="0" max="100" value="{{test.numberSelection5}}" ng-model="test.numberSelection5"/>
+		    <p>Selected Number : {{test.numberSelection5}} </p>
+		  </div>
+			<div class="row">
+				<button class="col-50 button button-block button-positive" ng-click="showMeTheNumber();">
+		        Get Chart
+			    </button>
+			    <button class="col-50 button button-block button-energized" ng-click="compare();">
+			       Compare with old data
+			    </button>
+			</div>
+		</div>
+		
+	</ion-scroll>
+	<!-- <div style="width:30%">
+		<canvas id="canvas" height="450" width="450"></canvas>
+	</div> -->
+
+	<!-- <canvas donutchart options="options" data="myChartData" width="300" height="300"></canvas> -->
+	<div class="row">
+		<div class="col">
+			<canvas radarchart options="optionss" data="chart" width="300" height="300"></canvas>
+		</div>
+<!-- 		<div class="col-25 col-offset-20">
+			<canvas radarchart options="optionss" data="chart" width="300" height="300"></canvas>
+		</div> -->
+	</div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,389 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ion-li",
+				"ion-slide	Ionic Extension"
+			],
+			[
+				"ion",
+				"ion-refresher	Ionic Extension"
+			],
+			[
+				"io",
+				"ion-toggle	Ionic Extension"
+			],
+			[
+				"$",
+				"$scope"
+			],
+			[
+				"co",
+				"console.log"
+			],
+			[
+				"$int",
+				"$interpolateProvider	AngularJS"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"scope",
+				"$scope	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inpu",
+				"ionic-input-inline	ionic-input-inline"
+			],
+			[
+				"string",
+				"querystring.stringify"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"table",
+				"Snippet: bst-table-bordered"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 664.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Users/rasantha/Documents/Projects/LabControl - Antoine"
+	],
+	"file_history":
+	[
+		"/C/Users/rasantha/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
+		"/C/Users/rasantha/AppData/Roaming/Sublime Text 3/Packages/User/AngularJS-js-completions.sublime-settings",
+		"/C/Users/rasantha/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-completions.sublime-settings",
+		"/C/wamp/www/careApp/www/js/Chart.min.js",
+		"/C/wamp/www/careApp/www/js/angles.js",
+		"/C/wamp/www/myapp/www/templates/tab-chart.html",
+		"/C/wamp/www/myapp/www/index.html",
+		"/C/wamp/www/myapp/www/js/controllers.js",
+		"/C/wamp/www/careApp/www/templates/menu.html",
+		"/C/wamp/www/careApp/www/templates/search.html",
+		"/C/wamp/www/careApp/www/templates/login.html",
+		"/C/wamp/www/meanTodoApp/server/routes/index.js",
+		"/C/wamp/www/meanTodoApp/gulpFile.js",
+		"/C/wamp/www/meanTodoApp/server/views/index.html",
+		"/C/wamp/www/meanTodoApp/client/js/controller.js",
+		"/C/wamp/www/meanTodoApp/client/js/app.js",
+		"/C/wamp/www/meanTodoApp/client/js/factory.js",
+		"/C/wamp/www/meanTodoApp/client/css/style.css",
+		"/C/wamp/www/meanTodoApp/bower.json",
+		"/C/wamp/www/meanTodoApp/.bowerrc",
+		"/C/wamp/www/starter-node-angular-master/public/views/nerd.html",
+		"/C/wamp/www/starter-node-angular-master/public/views/home.html",
+		"/C/wamp/www/starter-node-angular-master/public/views/geek.html",
+		"/C/wamp/www/starter-node-angular-master/public/js/app.js",
+		"/C/wamp/www/starter-node-angular-master/public/js/appRoutes.js",
+		"/C/wamp/www/starter-node-angular-master/public/js/controllers/GeekCtrl.js",
+		"/C/wamp/www/starter-node-angular-master/public/js/controllers/MainCtrl.js",
+		"/C/wamp/www/starter-node-angular-master/public/js/controllers/NerdCtrl.js",
+		"/C/wamp/www/starter-node-angular-master/public/css/style.css",
+		"/C/wamp/www/starter-node-angular-master/public/js/appDirectives.js",
+		"/C/wamp/www/Chart.js/Chart.js",
+		"/C/wamp/www/Chart.js/src/Chart.Radar.js",
+		"/C/Users/rasantha/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/rasantha/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/wamp/www/Chart.js/Chart.min.js",
+		"/C/wamp/www/node-withings/index.js",
+		"/C/wamp/www/node-withings/README.md",
+		"/C/wamp/www/node-withings/lib/withings.js",
+		"/C/wamp/www/node-withings/wercker.yml",
+		"/C/wamp/www/dashboard/README.md",
+		"/C/wamp/www/dashboard/config/boot.rb",
+		"/C/wamp/www/dashboard/config/application.rb",
+		"/C/wamp/www/dashboard/app/controllers/application_controller.rb",
+		"/C/wamp/www/dashboard/app/controllers/dashboard_controller.rb",
+		"/C/wamp/www/dashboard/app/views/dashboard/index.html.erb",
+		"/C/wamp/www/myapp/www/templates/tab-rtd.html",
+		"/C/wamp/www/myapp/www/templates/tab-dash.html",
+		"/C/wamp/www/myapp/www/js/index.html",
+		"/D/Users/rasantha/Documents/E_learning/AngularJs/app.js",
+		"/D/Users/rasantha/Documents/E_learning/AngularJs/angular.min.js",
+		"/D/Users/rasantha/Documents/test.html",
+		"/D/Users/rasantha/Documents/qsdqd.html",
+		"/C/wamp/www/myapp/www/templates/tab-chats.html",
+		"/C/wamp/www/myapp/www/templates/tabs.html",
+		"/D/Users/rasantha/Documents/Projects/Firebase/RTD/jsonRTD.json",
+		"/C/wamp/www/myapp/www/templates/tab-weather.html",
+		"/D/Users/rasantha/Documents/Projects/Firebase/RTD/jsongenerator_RTD.txt",
+		"/D/Users/rasantha/Desktop/test.json",
+		"/C/wamp/www/myapp/www/templates/tab-tasks.html",
+		"/C/wamp/www/myapp/www/js/firebase.js",
+		"/C/wamp/www/myapp/www/css/style.css",
+		"/C/wamp/www/myapp/gulpfile.js",
+		"/C/wamp/www/myapp/www/lib/ionic/css/ionic.css",
+		"/C/wamp/www/myapp/www/js/services.js",
+		"/C/wamp/www/myapp/www/templates/tab-calendar.html",
+		"/C/wamp/www/myapp/www/templates/tab-account.html",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/templates/tabs.html",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/templates/tab-chats.html",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/templates/tab-dash.html",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/templates/chat-detail.html",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/js/services.js",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/css/style.css",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/lib/ionic/css/ionic.css",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/templates/tab-account.html",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/js/app.js",
+		"/D/Users/rasantha/Documents/Cordova/myapp/www/js/controllers.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/temboo/core/choreography.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/temboo/Library/Twitter/Search.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/public/stylesheets/style.css",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/views/layout.jade",
+		"/D/Users/rasantha/Documents/Istia/Personal/Flightaware ApI test/index.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/public/javascripts/googlemap.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/temboo/Library/Yahoo/Weather.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/temboo/core/temboosession.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/temboo/core/exception.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/temboo/core/choreoexecution.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Project/index.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Project/node_modules/temboo/Library/Yahoo/Weather.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Project/node_modules/temboo/README.md",
+		"/D/Users/rasantha/Documents/Istia/Personal/Project/node_modules/temboo/package.json",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/views/error.jade",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/routes/index.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/package.json",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/views/index.jade",
+		"/D/Users/rasantha/Documents/Istia/Personal/Node_Express/geolocmyapp/node_modules/express/index.js",
+		"/D/Users/rasantha/Documents/Istia/Personal/Project/node_modules/express/index.js",
+		"/C/wamp/www/examples/ionic-firebase/www/lib/firebase/firebase.js",
+		"/C/wamp/www/examples/ionic-firebase/README.md",
+		"/C/wamp/www/examples/chat/index.html",
+		"/C/wamp/www/examples/chat/js/chat.js",
+		"/C/wamp/www/examples/chat/burning-fire-8658/gulpfile.js",
+		"/C/wamp/www/examples/chat/burning-fire-8658/firebase.json",
+		"/C/wamp/www/examples/chat/burning-fire-8658/package.json",
+		"/C/wamp/www/examples/chat/burning-fire-8658/README.md",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/server/messages.js",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/client/lib/messages.js",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/client/raj-app.html",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/raj-app.js",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/raj-app.css",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/server/users.js",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/client/messagesList.html",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/client/lib/users.js",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/collections/messages.js",
+		"/D/Users/rasantha/Documents/Istia/HTML5/raj-app/raj-app.html",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/Code sample for thermostat control _ Js/control-jquery-master/server.js",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/Code sample for thermostat control _ Js/control-jquery-master/README.markdown",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/alert-jquery-master/server.js",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/alert-jquery-master/Gruntfile.js",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/Code sample for thermostat control _ Js/control-jquery-master/Gruntfile.js",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/Code sample for thermostat control _ Js/control-jquery-master/app/javascript/nest.js",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/Code sample for thermostat control _ Js/control-jquery-master/package.json",
+		"/D/Users/rasantha/Documents/Projects/InternetofThings/Code sample for thermostat control _ Js/control-jquery-master/bower.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"controller",
+			"legend",
+			"/public",
+			"social",
+			";\n",
+			"		\n",
+			"sunny",
+			"clear",
+			"balance",
+			"bar-positive",
+			"387ef5",
+			"tab-posi",
+			"387ef5",
+			"card",
+			"item-divider",
+			"input-label",
+			"item-input",
+			"item item-input",
+			"20",
+			"foreCast",
+			"25",
+			"title"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LabControl.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -34,7 +34,8 @@ angular.module('starter.controllers', [])
 })
 
 /************ Chart Controller **************/
-.controller('ChartCtrl', function($scope) {
+.controller('ChartCtrl', function($firebaseArray,$scope) {
+            var i = 0;
   $scope.settings = {
     showEvaluation: false
   };
@@ -193,8 +194,28 @@ angular.module('starter.controllers', [])
                 //     data: [28, 48, 40, 19, 96, 27, 100]
                 // }
             ]
-      };
+        };
+
+        /************* Save Data in Firebase *************/
+        var ref = new Firebase("https://crackling-inferno-2875.firebaseio.com/");
+        $scope.evaluation = $firebaseArray(ref.child('users').child('evaluation'));
+
+        $scope.evaluation.$add({
+            alimentation: $scope.test.numberSelection,
+            hydratation: $scope.test.numberSelection2,
+            sommeil: $scope.test.numberSelection3,
+            activite: $scope.test.numberSelection4,
+            obsmedicale: $scope.test.numberSelection5
+        }).then(function(ref) {
+              var id = ref.key();
+              console.log("added record with id " + id);
+              $scope.evaluation.$indexFor(id); // returns location in the array
+        });
+
+        i=i+1;
     }
+
+    
 
     $scope.compare = function(){
       $scope.chart.datasets = [
@@ -222,24 +243,30 @@ angular.module('starter.controllers', [])
       ]
        
     }
+
+    
 })
 
 
-/************ Chart Controller **************/
-.controller('HistoriqueCtrl',  function($scope){
-  
-})
+/************ Historique Controller **************/
+.controller('HistoriqueCtrl', function($firebaseObject,$scope) {
+    var ref = new Firebase("https://crackling-inferno-2875.firebaseio.com/");
+    // download physicsmarie's profile data into a local object
+    // all server changes are applied in realtime
+    $scope.user = $firebaseObject(ref.child('users').child('evaluation'));
+  })
 
-.controller('PlaylistsCtrl', function($scope) {
+.controller('AnalyticsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'Alimentation', id: 1 },
+    { title: 'Hydratation', id: 2 },
+    { title: 'Sommeil', id: 3 },
+    { title: 'Activité', id: 4 },
+    { title: 'Obs.Medicale', id: 5 }
   ];
+
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('AnalyticCtrl', function($scope, $stateParams) {
+
 });

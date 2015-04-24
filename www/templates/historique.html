@@ -1,6 +1,5 @@
 <ion-view view-title="Historique">
-  <ion-content ng-controller="ChartCtrl">
-  		{{settings.showEvaluation}}
-  		{{test.numberSelection}}
+  <ion-content>
+  		<input ng-model="user.sommeil" ng-change="user.$save()" type="text" />
   </ion-content>
 </ion-view>

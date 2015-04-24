@@ -37,6 +37,12 @@
 		    <input type="range" name="volume" min="0" max="100" value="{{test.numberSelection5}}" ng-model="test.numberSelection5"/>
 		    <p>Selected Number : {{test.numberSelection5}} </p>
 		  </div>
+		  <div class="item range range-positive">
+		  	<label class="item item-input">
+			  <span class="input-label">Date</span>
+			  <input type="date" ng-model="evalDate">
+			</label>
+		  </div>
 			<div class="row">
 				<button class="col-50 button button-block button-positive" ng-click="showMeTheNumber();">
 		        Get Chart

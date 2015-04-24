@@ -244,6 +244,7 @@ angular.module('starter.controllers', [])
        
     }
 
+    /********** Remove Data ************/
     
 })
 

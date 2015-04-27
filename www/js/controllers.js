@@ -213,6 +213,16 @@ angular.module('starter.controllers', [])
         });
 
         i=i+1;
+
+        var list = $firebaseArray(ref.child('users').child('evaluation'));
+
+            list.$watch(function(event) {
+              console.log(event);
+              console.log(event.key());
+            });
+
+
+
     }
 
     
@@ -237,8 +247,7 @@ angular.module('starter.controllers', [])
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
           pointHighlightStroke: "rgba(151,187,205,1)",
-          data: [35, 47, 63, 26, 56],
-          legend:"Old one"
+          data: [35, 47, 63, 26, 56]
         }
       ]
        

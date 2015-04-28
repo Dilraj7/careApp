@@ -221,7 +221,7 @@ angular.module('starter.controllers', [])
               console.log(event.key());
             });
 
-
+                /*** Just to test ********/
 
     }
 
@@ -253,8 +253,10 @@ angular.module('starter.controllers', [])
        
     }
 
-    /********** Remove Data ************/
-    
+    /********** Refresh Data ************/
+    $scope.doRefresh = function(){
+        console.log("refreshing");
+    }
 })
 
 

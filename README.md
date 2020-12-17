@@ -12,4 +12,4 @@ Dashboard & Healthcare Evaluation App - using AngularJS / Ionic Framework
 ## By ##
 
 
-Rajesh Santhanam
+Raj.S
